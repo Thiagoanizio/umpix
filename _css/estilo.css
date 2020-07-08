@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+	background-color: #e6e6e6;
+	}
+	p {
+	text-align: center;
+	margin-bottom: 0em;
+	position: relative;
+	bottom: -600px;
+	}
+/*formatacao de imagens*/
+
+figure.foto-edit {
+	position: absolute;
+	top: -18px;
+	left: 300px;
+}
+
+figure.foto-edit img {
+	
+}
+
+/*formatacao do menu*/
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -24px;
+	left: 503px
+}
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: white;
+	padding: 19px;
+	margin: 2px;
+	transition: background-color 1s;
+}
